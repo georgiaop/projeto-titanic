@@ -1,0 +1,88 @@
+RELATÓRIO DE ANÁLISE DE DADOS — TITANIC
+1. Introdução
+Este relatório tem como objetivo analisar os dados dos passageiros do Titanic para identificar padrões relacionados à sobrevivência no naufrágio.
+
+A análise foi realizada utilizando técnicas de análise exploratória de dados, permitindo compreender como fatores como sexo, idade, classe social e valor da passagem influenciaram as chances de sobrevivência dos passageiros.
+
+Os dados utilizados são amplamente empregados em estudos de análise de dados e inteligência artificial.
+
+2. Base de Dados
+A base de dados contém informações sobre os passageiros do Titanic, incluindo características pessoais, sociais e informações da viagem.
+
+Informações analisadas
+Sobrevivência dos passageiros;
+Classe em que viajavam;
+Sexo;
+Idade;
+Valor da passagem;
+Porto de embarque;
+Quantidade de familiares a bordo.
+3. Ferramentas Utilizadas
+Durante a análise foram utilizadas as seguintes ferramentas:
+
+Python;
+Pandas;
+NumPy;
+Matplotlib;
+Seaborn;
+Jupyter Notebook.
+4. Tratamento dos Dados
+Antes da realização das análises, foi necessário tratar os dados para garantir maior qualidade nas informações.
+
+Etapas realizadas
+Verificação de dados ausentes;
+Preenchimento de informações faltantes;
+Organização das colunas;
+Verificação dos tipos de dados;
+Remoção de informações inconsistentes.
+Foram identificadas informações ausentes principalmente nas colunas de idade, cabine e porto de embarque.
+
+As idades ausentes foram preenchidas utilizando a mediana. A coluna de cabine foi removida devido à grande quantidade de dados faltantes.
+
+5. Análise Exploratória dos Dados
+Distribuição dos passageiros por classe
+A maior parte dos passageiros estava concentrada na terceira classe, indicando predominância de passageiros das classes econômicas mais baixas.
+
+A primeira classe possuía menor quantidade de passageiros, porém com melhores condições e maior nível econômico.
+
+Sobrevivência por sexo
+As mulheres apresentaram taxas de sobrevivência significativamente maiores em comparação aos homens.
+
+Esse resultado está relacionado à prioridade dada a mulheres e crianças durante o resgate.
+
+Sobrevivência por classe social
+Os passageiros da primeira classe tiveram maiores chances de sobrevivência quando comparados aos passageiros da terceira classe.
+
+Esse resultado demonstra que fatores sociais e econômicos influenciaram diretamente as chances de sobrevivência.
+
+Análise da idade
+A maior parte dos passageiros possuía idade entre 20 e 40 anos.
+
+Também foi observado que crianças apresentaram taxas de sobrevivência maiores em comparação aos adultos.
+
+Valor das passagens
+Passageiros que pagaram valores mais altos pelas passagens apresentaram maiores índices de sobrevivência.
+
+Isso reforça a relação entre condição econômica e acesso às áreas prioritárias de resgate.
+
+Familiares a bordo
+Passageiros acompanhados por pequenos grupos familiares apresentaram maiores chances de sobrevivência em comparação àqueles que viajavam sozinhos.
+
+Famílias muito grandes apresentaram menores taxas de sobrevivência.
+
+6. Principais Descobertas
+Durante a análise, foram identificados alguns padrões importantes:
+
+Mulheres sobreviveram mais do que homens;
+Passageiros da primeira classe tiveram maiores chances de sobrevivência;
+Crianças foram priorizadas durante o resgate;
+Passageiros com passagens mais caras apresentaram maior taxa de sobrevivência;
+A condição social influenciou diretamente nas chances de sobrevivência.
+7. Conclusão
+A análise dos dados do Titanic permitiu identificar fatores importantes relacionados à sobrevivência dos passageiros.
+
+Os resultados mostraram que sexo, idade, classe social e valor da passagem tiveram forte influência nas chances de sobrevivência durante o naufrágio.
+
+Além disso, a análise demonstrou como técnicas de análise de dados podem auxiliar na identificação de padrões e na interpretação de informações relevantes.
+
+O desenvolvimento deste projeto contribuiu para a prática de tratamento de dados, criação de gráficos e interpretação de resultados utilizando Python.
